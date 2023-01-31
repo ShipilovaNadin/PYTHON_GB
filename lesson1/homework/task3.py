@@ -10,3 +10,21 @@ if a == b:
     print("Yes - lucky ticket")
 else:
     print("No")
+
+    """Вариант считать математически   
+    ticket_number = int(input())
+    
+    sum_first = 0
+    sum_second = 0
+
+    while ticket_number:
+        digit = ticket_number % 10
+        if ticket_number>999:
+            sum_first += digit
+        else:
+            sum_second += digit
+        ticket_number //= 10
+
+    print(f"The ticket is lucky: {sum_first == sum_second}")
+    
+    """

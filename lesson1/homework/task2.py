@@ -4,6 +4,11 @@
 # а Катя сделала в два раза больше журавликов, чем Петя и Сережа вместе?
 
 s = int(input("Введите общее количество сделанных журавликов: "))
-ps = s//6
-k = ps*4
-print(ps, k, ps)
+
+if s % 2 or (s // 2) % 2:
+    print("The data is incorrect!")
+
+else:    
+    ps = s//6 # k = s // 2
+    k = ps*4  # ps = k // 2
+    print(ps, k, ps)
