@@ -7,7 +7,7 @@ heads_num = tails_num = 0
 
 for _ in range(n):
     num = int(input("Введите 1 если монета повернута гербом вверх и 0 если вверх решкой "))
-    if num == 1:
+    if num == 1: # if num: (псли истонно то есть значение == 1)
         heads_num += 1
     else:
         tails_num += 1
@@ -17,3 +17,8 @@ if heads_num > tails_num:
     print(tails_num)
 else:
     print(heads_num)
+
+
+    """ 
+    
+    """

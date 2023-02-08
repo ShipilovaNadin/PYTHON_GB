@@ -13,4 +13,8 @@ y1 = (s - sqrt(s * s - 4 * p)) / 2
 
 x = int(x1)
 y = int(y1)
-print(x, y)
+
+if x == y:
+    print(x)
+else:
+    print(x, y)

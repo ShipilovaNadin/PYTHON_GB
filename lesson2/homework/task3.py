@@ -3,6 +3,6 @@
 n = int(input("Enter N "))
 k = 1
 
-while k < n:
+while k <= n:
     print(k, " ")
     k *= 2
