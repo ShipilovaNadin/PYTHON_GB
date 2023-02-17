@@ -5,6 +5,8 @@
 def degree(a, b):
     if b == 0:
         return 1
+    if b < 0:
+        return degree(a, b + 1) * 1/a
     return degree(a, b - 1) * a
   
 a = int(input("Введите число А "))

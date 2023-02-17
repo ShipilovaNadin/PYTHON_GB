@@ -12,3 +12,12 @@ set2 = {int(input("Введите элементы множества m: ")) for
 print(set2)
 
 print("Элементы входящие в оба множества: ", *list(set1.intersection(set2)))
+
+#Вариант 2 чтобы наполнить множество значениями
+# def make_set(a):
+#     set_a = []
+#     for i in range(a):
+#         a_1 = int(input())
+#         set_a.append(a_1)
+#     return set(set_a)
+# print(make_set(6))
