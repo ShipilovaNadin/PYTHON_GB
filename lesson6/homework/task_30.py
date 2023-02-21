@@ -4,5 +4,7 @@
 # Каждое число вводится с новой строки.
 
 a1, d, n = int(input("Введите первый элемент ")), int(input("введите разность ")), int(input("Введите количество элементов "))
-for i in range(n):
-    print(a1 + i * d)
+# for i in range(n):
+#     print(a1 + i * d)
+
+print(*range(a1, a1 + d * (n - 1) + 1, d))
