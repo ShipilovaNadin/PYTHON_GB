@@ -44,6 +44,11 @@ def add_new_contact():
     with open(file_base, "a", encoding="utf-8") as f:
         f.write(f"{id} {string}\n")
 
+def search_a_record():
+    input("Enter ")
+    print(all_data[i] for i in all_data if )
+
+
 def main_menu():
     play = True
     while play:
@@ -60,7 +65,7 @@ def main_menu():
             case "2":
                 add_new_contact()
             case "3":
-                pass
+                search_a_record()
             case "4":
                 delete_contact()
             case "5":
